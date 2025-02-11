@@ -1,0 +1,42 @@
+.price {
+  font-weight: 800;
+
+
+}
+
+.container-sm {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.cart-card {
+  padding: 16px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.price-label {
+  color: #555;
+}
+
+.price-value {
+  color: #1976d2;
+  /* لون أزرق مطابق لماتريال */
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.button-group button {
+  flex: 1;
+}
